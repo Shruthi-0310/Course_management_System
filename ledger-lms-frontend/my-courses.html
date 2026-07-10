@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Courses — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="student-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="student-dashboard.html">Dashboard</a>
+      <a href="browse-courses.html">Browse Courses</a>
+      <a href="my-courses.html" class="active">My Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+    <div class="nav-cta"><div class="nav-avatar">AL</div></div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Your enrollments</span>
+    <h1>My courses</h1>
+    <p class="muted">Three courses in progress, one completed.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-3">
+
+      <div class="course-card">
+        <div class="ribbon-label">80%</div>
+        <div class="ribbon"><div class="ribbon-fill" style="height:80%;"></div></div>
+        <div class="thumb"><span class="cat-tag">Web</span></div>
+        <div class="body">
+          <h3>Full Stack Development</h3>
+          <div class="instructor">Instructor: Meera Nair</div>
+          <div class="progress-track" style="margin-bottom:16px;"><div class="progress-fill" style="width:80%"></div></div>
+          <div class="actions">
+            <a href="course-content.html" class="btn btn-primary btn-sm">Continue</a>
+            <a href="course-details.html" class="btn btn-outline btn-sm">Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="ribbon-label">60%</div>
+        <div class="ribbon"><div class="ribbon-fill" style="height:60%;"></div></div>
+        <div class="thumb"><span class="cat-tag">Web</span></div>
+        <div class="body">
+          <h3>React Fundamentals</h3>
+          <div class="instructor">Instructor: Arjun Kapoor</div>
+          <div class="progress-track" style="margin-bottom:16px;"><div class="progress-fill" style="width:60%"></div></div>
+          <div class="actions">
+            <a href="course-content.html" class="btn btn-primary btn-sm">Continue</a>
+            <a href="course-details.html" class="btn btn-outline btn-sm">Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="ribbon-label">100%</div>
+        <div class="ribbon"><div class="ribbon-fill complete" style="height:100%;"></div></div>
+        <div class="thumb"><span class="cat-tag">Database</span></div>
+        <div class="body">
+          <h3>Database Management (DBMS)</h3>
+          <div class="instructor">Instructor: Priya Shah</div>
+          <div class="progress-track" style="margin-bottom:16px;"><div class="progress-fill complete" style="width:100%"></div></div>
+          <div class="actions">
+            <a href="certificate.html" class="btn btn-gold btn-sm">View certificate</a>
+            <a href="course-details.html" class="btn btn-outline btn-sm">Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-head" style="margin-top:50px;">
+      <h2 style="margin:0;">Not enrolled yet?</h2>
+    </div>
+    <div class="empty-state card">
+      <div class="icon">&#128218;</div>
+      <h3>There's always room for one more course</h3>
+      <p style="max-width:400px;margin:0 auto 18px;">Browse the catalog and enroll — your progress ribbon starts at your very first lesson.</p>
+      <a href="browse-courses.html" class="btn btn-primary">Browse courses</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links"><a href="progress.html">Progress</a><a href="notifications.html">Notifications</a></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

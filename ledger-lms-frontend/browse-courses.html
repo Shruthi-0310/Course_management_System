@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse courses — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="student-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="student-dashboard.html">Dashboard</a>
+      <a href="browse-courses.html" class="active">Browse Courses</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+    <div class="nav-cta">
+      <div class="nav-avatar">AL</div>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Catalog</span>
+    <h1>Browse courses</h1>
+    <p class="muted" style="max-width:520px;">Search by name or filter by category to find your next module.</p>
+    <form action="#" style="display:flex;gap:12px;margin-top:20px;max-width:560px;">
+      <input class="input" type="search" placeholder="Search courses — e.g. React, DBMS, Python…">
+      <select class="input" style="max-width:180px;">
+        <option>All categories</option>
+        <option>Programming</option>
+        <option>Web</option>
+        <option>AI</option>
+        <option>Database</option>
+      </select>
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2 style="margin:0;">12 courses available</h2>
+      <div class="muted" style="font-size:0.85rem;">Sorted by: <strong style="color:var(--ink);">Most popular</strong></div>
+    </div>
+
+    <div class="grid grid-3">
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">Web</span></div>
+        <div class="body">
+          <h3>Full Stack Development</h3>
+          <div class="instructor">Instructor: Meera Nair</div>
+          <div class="meta"><span>12 weeks</span><span>6 modules</span><span>1.2k enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">HTML, CSS, JavaScript, React, Node.js and MongoDB in one guided track.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">Programming</span></div>
+        <div class="body">
+          <h3>Python for Beginners</h3>
+          <div class="instructor">Instructor: Rahul Verma</div>
+          <div class="meta"><span>8 weeks</span><span>5 modules</span><span>980 enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">Core syntax, data structures and small projects to build confidence fast.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">Database</span></div>
+        <div class="body">
+          <h3>Database Management (DBMS)</h3>
+          <div class="instructor">Instructor: Priya Shah</div>
+          <div class="meta"><span>6 weeks</span><span>4 modules</span><span>740 enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">Relational design, SQL and normalization with hands-on schema work.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">Web</span></div>
+        <div class="body">
+          <h3>React Fundamentals</h3>
+          <div class="instructor">Instructor: Arjun Kapoor</div>
+          <div class="meta"><span>5 weeks</span><span>4 modules</span><span>610 enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">Components, hooks and state management for real interfaces.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">AI</span></div>
+        <div class="body">
+          <h3>Intro to Machine Learning</h3>
+          <div class="instructor">Instructor: Kavya Iyer</div>
+          <div class="meta"><span>10 weeks</span><span>7 modules</span><span>1.5k enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">Regression, classification and evaluation, taught with real datasets.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="thumb"><span class="cat-tag">Programming</span></div>
+        <div class="body">
+          <h3>JavaScript Essentials</h3>
+          <div class="instructor">Instructor: Meera Nair</div>
+          <div class="meta"><span>6 weeks</span><span>5 modules</span><span>890 enrolled</span></div>
+          <p class="muted" style="font-size:0.88rem;">From variables to async — the language behind every module 4 lesson.</p>
+          <div class="actions">
+            <a href="course-details.html" class="btn btn-outline btn-sm">View details</a>
+            <a href="enrollment-success.html" class="btn btn-gold btn-sm">Enroll</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links">
+      <a href="my-courses.html">My Courses</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Courses — Ledger Admin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="admin-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger <span class="badge badge-gold" style="margin-left:6px;">Admin</span></a>
+    <div class="nav-links"></div>
+    <div class="nav-cta"><div class="nav-avatar">MN</div></div>
+  </div>
+</nav>
+
+<div class="dash-shell">
+  <aside class="sidebar">
+    <div class="group-label">Overview</div>
+    <a href="admin-dashboard.html">&#128202; Dashboard</a>
+    <div class="group-label">Courses</div>
+    <a href="courses.html" class="active">&#128218; All courses</a>
+    <a href="add-course.html">&#10133; Add course</a>
+    <div class="group-label">Account</div>
+    <a href="notifications.html">&#128276; Notifications</a>
+    <a href="login.html">&#8630; Log out</a>
+  </aside>
+
+  <main class="dash-main">
+    <div class="dash-header">
+      <div>
+        <span class="eyebrow">Course management</span>
+        <h1 style="margin:0;">All courses</h1>
+      </div>
+      <a href="add-course.html" class="btn btn-gold">Add new course</a>
+    </div>
+
+    <form action="#" style="display:flex;gap:12px;margin-bottom:20px;max-width:520px;">
+      <input class="input" type="search" placeholder="Search by course name or instructor…">
+      <select class="input" style="max-width:170px;">
+        <option>All categories</option>
+        <option>Programming</option>
+        <option>Web</option>
+        <option>AI</option>
+        <option>Database</option>
+      </select>
+    </form>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Course</th><th>Category</th><th>Instructor</th><th>Duration</th><th>Enrolled</th><th>Status</th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Full Stack Development</strong></td>
+            <td>Web</td>
+            <td>Meera Nair</td>
+            <td>12 weeks</td>
+            <td>1,204</td>
+            <td><span class="badge badge-success">Active</span></td>
+            <td class="row-actions"><a href="edit-course.html" class="btn btn-ghost btn-sm">Edit</a><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+          </tr>
+          <tr>
+            <td><strong>Python for Beginners</strong></td>
+            <td>Programming</td>
+            <td>Rahul Verma</td>
+            <td>8 weeks</td>
+            <td>980</td>
+            <td><span class="badge badge-success">Active</span></td>
+            <td class="row-actions"><a href="edit-course.html" class="btn btn-ghost btn-sm">Edit</a><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+          </tr>
+          <tr>
+            <td><strong>Database Management (DBMS)</strong></td>
+            <td>Database</td>
+            <td>Priya Shah</td>
+            <td>6 weeks</td>
+            <td>740</td>
+            <td><span class="badge badge-success">Active</span></td>
+            <td class="row-actions"><a href="edit-course.html" class="btn btn-ghost btn-sm">Edit</a><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+          </tr>
+          <tr>
+            <td><strong>React Fundamentals</strong></td>
+            <td>Web</td>
+            <td>Arjun Kapoor</td>
+            <td>5 weeks</td>
+            <td>610</td>
+            <td><span class="badge badge-success">Active</span></td>
+            <td class="row-actions"><a href="edit-course.html" class="btn btn-ghost btn-sm">Edit</a><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+          </tr>
+          <tr>
+            <td><strong>Intro to Machine Learning</strong></td>
+            <td>AI</td>
+            <td>Kavya Iyer</td>
+            <td>10 weeks</td>
+            <td>1,540</td>
+            <td><span class="badge badge-gold">Draft</span></td>
+            <td class="row-actions"><a href="edit-course.html" class="btn btn-ghost btn-sm">Edit</a><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

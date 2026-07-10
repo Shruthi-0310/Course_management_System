@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="student-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="student-dashboard.html" class="active">Dashboard</a>
+      <a href="browse-courses.html">Browse Courses</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+    <div class="nav-cta"><div class="nav-avatar">AL</div></div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Welcome back</span>
+    <h1>Hello, Ada</h1>
+    <p class="muted">Here's where your courses stand today.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-4" style="margin-bottom:44px;">
+      <div class="stat-card"><div class="num">4</div><div class="label">Total courses enrolled</div></div>
+      <div class="stat-card"><div class="num">1</div><div class="label">Courses completed</div></div>
+      <div class="stat-card"><div class="num">3</div><div class="label">Ongoing courses</div></div>
+      <div class="stat-card"><div class="num">80%</div><div class="label">Progress statistics</div><div class="delta up">&#9650; 12% this month</div></div>
+    </div>
+
+    <div class="split">
+      <div>
+        <div class="section-head"><h2 style="margin:0;">Continue learning</h2><a href="my-courses.html" class="muted" style="font-size:0.85rem;">View all →</a></div>
+        <div class="grid grid-2">
+          <div class="course-card">
+            <div class="ribbon-label">80%</div>
+            <div class="ribbon"><div class="ribbon-fill" style="height:80%;"></div></div>
+            <div class="thumb"><span class="cat-tag">Web</span></div>
+            <div class="body">
+              <h3>Full Stack Development</h3>
+              <div class="progress-track" style="margin-bottom:16px;"><div class="progress-fill" style="width:80%"></div></div>
+              <a href="course-content.html" class="btn btn-primary btn-sm">Continue</a>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="ribbon-label">60%</div>
+            <div class="ribbon"><div class="ribbon-fill" style="height:60%;"></div></div>
+            <div class="thumb"><span class="cat-tag">Web</span></div>
+            <div class="body">
+              <h3>React Fundamentals</h3>
+              <div class="progress-track" style="margin-bottom:16px;"><div class="progress-fill" style="width:60%"></div></div>
+              <a href="course-content.html" class="btn btn-primary btn-sm">Continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card card-pad" style="margin-bottom:18px;">
+          <h4 style="margin-bottom:14px;">Recent notifications</h4>
+          <div style="display:flex;flex-direction:column;gap:14px;">
+            <div style="display:flex;gap:10px;"><span class="notif-icon success" style="width:30px;height:30px;">&#10003;</span><div><strong style="font-size:0.86rem;">Enrollment confirmed</strong><p class="muted" style="margin:2px 0 0;font-size:0.8rem;">Full Stack Development</p></div></div>
+            <div style="display:flex;gap:10px;"><span class="notif-icon" style="width:30px;height:30px;">&#128276;</span><div><strong style="font-size:0.86rem;">New course added</strong><p class="muted" style="margin:2px 0 0;font-size:0.8rem;">Intro to Machine Learning</p></div></div>
+          </div>
+          <a href="notifications.html" class="btn btn-outline btn-block" style="margin-top:16px;">View all notifications</a>
+        </div>
+        <div class="card card-pad">
+          <h4 style="margin-bottom:10px;">Latest certificate</h4>
+          <p class="muted" style="font-size:0.85rem;margin-bottom:14px;">Database Management (DBMS) — issued 3 Jul 2026</p>
+          <a href="certificate.html" class="btn btn-gold btn-block">View certificate</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links"><a href="browse-courses.html">Browse Courses</a><a href="progress.html">Progress</a></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

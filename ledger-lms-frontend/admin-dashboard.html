@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="admin-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger <span class="badge badge-gold" style="margin-left:6px;">Admin</span></a>
+    <div class="nav-links"></div>
+    <div class="nav-cta"><div class="nav-avatar">MN</div></div>
+  </div>
+</nav>
+
+<div class="dash-shell">
+  <aside class="sidebar">
+    <div class="group-label">Overview</div>
+    <a href="admin-dashboard.html" class="active">&#128202; Dashboard</a>
+    <div class="group-label">Courses</div>
+    <a href="courses.html">&#128218; All courses</a>
+    <a href="add-course.html">&#10133; Add course</a>
+    <div class="group-label">Account</div>
+    <a href="notifications.html">&#128276; Notifications</a>
+    <a href="login.html">&#8630; Log out</a>
+  </aside>
+
+  <main class="dash-main">
+    <div class="dash-header">
+      <div>
+        <span class="eyebrow">Admin console</span>
+        <h1 style="margin:0;">Analytics overview</h1>
+      </div>
+      <a href="add-course.html" class="btn btn-gold">Add new course</a>
+    </div>
+
+    <div class="grid grid-4" style="margin-bottom:40px;">
+      <div class="stat-card"><div class="num">3,842</div><div class="label">Total students</div><div class="delta up">&#9650; 6.2% this month</div></div>
+      <div class="stat-card"><div class="num">12</div><div class="label">Total courses</div></div>
+      <div class="stat-card"><div class="num">5,109</div><div class="label">Active enrollments</div><div class="delta up">&#9650; 3.1% this month</div></div>
+      <div class="stat-card"><div class="num">71%</div><div class="label">Avg. completion rate</div><div class="delta down">&#9660; 1.4% this month</div></div>
+    </div>
+
+    <div class="section-head"><h2 style="margin:0;">Course performance</h2><a href="courses.html" class="muted" style="font-size:0.85rem;">Manage courses →</a></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Course</th><th>Instructor</th><th>Enrolled</th><th>Completion</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Full Stack Development</strong></td>
+            <td>Meera Nair</td>
+            <td>1,204</td>
+            <td style="width:160px;"><div class="progress-track"><div class="progress-fill" style="width:80%"></div></div></td>
+            <td><span class="badge badge-success">Active</span></td>
+          </tr>
+          <tr>
+            <td><strong>Python for Beginners</strong></td>
+            <td>Rahul Verma</td>
+            <td>980</td>
+            <td style="width:160px;"><div class="progress-track"><div class="progress-fill" style="width:64%"></div></div></td>
+            <td><span class="badge badge-success">Active</span></td>
+          </tr>
+          <tr>
+            <td><strong>Database Management (DBMS)</strong></td>
+            <td>Priya Shah</td>
+            <td>740</td>
+            <td style="width:160px;"><div class="progress-track"><div class="progress-fill complete" style="width:92%"></div></div></td>
+            <td><span class="badge badge-success">Active</span></td>
+          </tr>
+          <tr>
+            <td><strong>Intro to Machine Learning</strong></td>
+            <td>Kavya Iyer</td>
+            <td>1,540</td>
+            <td style="width:160px;"><div class="progress-track"><div class="progress-fill" style="width:38%"></div></div></td>
+            <td><span class="badge badge-gold">Draft</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

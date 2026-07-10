@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notifications — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="student-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="student-dashboard.html">Dashboard</a>
+      <a href="browse-courses.html">Browse Courses</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="notifications.html" class="active">Notifications</a>
+    </div>
+    <div class="nav-cta"><div class="nav-avatar">AL</div></div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;">
+    <div>
+      <span class="eyebrow">Real-time updates</span>
+      <h1>Notifications</h1>
+      <p class="muted">Delivered live over Socket.IO — new course alerts, confirmations, reminders and certificates.</p>
+    </div>
+    <button class="btn btn-outline btn-sm" type="button">Mark all as read</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container" style="max-width:760px;">
+    <div class="table-wrap">
+
+      <div class="notif-item unread">
+        <div class="notif-icon success">&#10003;</div>
+        <div class="notif-body" style="flex:1;">
+          <h4>Enrollment confirmed</h4>
+          <p>You're enrolled in Full Stack Development. First lesson is ready.</p>
+        </div>
+        <div class="notif-time">2 min ago</div>
+      </div>
+
+      <div class="notif-item unread">
+        <div class="notif-icon">&#128276;</div>
+        <div class="notif-body" style="flex:1;">
+          <h4>New course added</h4>
+          <p>"Intro to Machine Learning" just joined the AI category.</p>
+        </div>
+        <div class="notif-time">3 hours ago</div>
+      </div>
+
+      <div class="notif-item">
+        <div class="notif-icon info">&#128221;</div>
+        <div class="notif-body" style="flex:1;">
+          <h4>Assignment reminder</h4>
+          <p>Module 3 exercises for JavaScript are due in 2 days.</p>
+        </div>
+        <div class="notif-time">Yesterday</div>
+      </div>
+
+      <div class="notif-item">
+        <div class="notif-icon success">&#127942;</div>
+        <div class="notif-body" style="flex:1;">
+          <h4>Certificate issued</h4>
+          <p>Your Database Management (DBMS) certificate is ready to download.</p>
+        </div>
+        <div class="notif-time">3 Jul 2026</div>
+      </div>
+
+      <div class="notif-item">
+        <div class="notif-icon info">&#128100;</div>
+        <div class="notif-body" style="flex:1;">
+          <h4>Welcome to Ledger</h4>
+          <p>Your account was created successfully. Start by browsing courses.</p>
+        </div>
+        <div class="notif-time">28 Jun 2026</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links"><a href="student-dashboard.html">Dashboard</a></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

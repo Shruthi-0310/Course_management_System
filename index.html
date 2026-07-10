@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger — Course Management &amp; Learning Progress Tracking</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="browse-courses.html">Browse Courses</a>
+      <a href="login.html">How it works</a>
+    </div>
+    <div class="nav-cta">
+      <a href="login.html" class="btn btn-ghost">Log in</a>
+      <a href="register.html" class="btn btn-gold">Get started</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero dark">
+  <div class="container" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:40px;align-items:center;">
+    <div>
+      <span class="eyebrow">Full-stack learning platform</span>
+      <h1>Keep every course, every module, and every milestone in one ledger.</h1>
+      <p style="font-size:1.05rem;max-width:520px;">Browse courses, enroll in a few clicks, and watch a gold ribbon fill in as you move through each module — from your first login to your certificate.</p>
+      <div style="display:flex;gap:12px;margin-top:26px;">
+        <a href="register.html" class="btn btn-gold">Create a free account</a>
+        <a href="browse-courses.html" class="btn btn-outline" style="border-color:rgba(250,247,240,0.35);color:#fff;">Browse courses</a>
+      </div>
+    </div>
+    <div class="card" style="background:var(--paper);padding:22px;position:relative;">
+      <div class="ribbon-label" style="position:static;margin-bottom:10px;">course_progress.log</div>
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <div>
+          <div class="progress-row"><span>Full Stack Development</span><span class="pct">80%</span></div>
+          <div class="progress-track"><div class="progress-fill" style="width:80%"></div></div>
+        </div>
+        <div>
+          <div class="progress-row"><span>React Fundamentals</span><span class="pct">60%</span></div>
+          <div class="progress-track"><div class="progress-fill" style="width:60%"></div></div>
+        </div>
+        <div>
+          <div class="progress-row"><span>Database Management (DBMS)</span><span class="pct">100%</span></div>
+          <div class="progress-track"><div class="progress-fill complete" style="width:100%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">What's inside</span>
+        <h2>Everything a course platform needs, in seven modules.</h2>
+      </div>
+    </div>
+    <div class="grid grid-3">
+      <div class="card card-pad">
+        <h3>Authentication</h3>
+        <p class="muted">Secure registration, login and password recovery with encrypted credentials and JWT sessions.</p>
+      </div>
+      <div class="card card-pad">
+        <h3>Course management</h3>
+        <p class="muted">Admins add, edit and retire courses, each with an instructor, duration and category.</p>
+      </div>
+      <div class="card card-pad">
+        <h3>Enrollment</h3>
+        <p class="muted">Students browse, search and enroll in courses in a single confirmed step.</p>
+      </div>
+      <div class="card card-pad">
+        <h3>Learning management</h3>
+        <p class="muted">Modules, materials and video lessons, completed one at a time.</p>
+      </div>
+      <div class="card card-pad">
+        <h3>Progress tracking</h3>
+        <p class="muted">A live completion percentage for every course, down to the module.</p>
+      </div>
+      <div class="card card-pad">
+        <h3>Notifications</h3>
+        <p class="muted">Enrollment confirmations, reminders and certificates delivered in real time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--paper-2);">
+  <div class="container" style="text-align:center;">
+    <span class="eyebrow">Ready when you are</span>
+    <h2>Start your first module today.</h2>
+    <p class="muted" style="max-width:480px;margin:0 auto 22px;">No credit card, no waitlist — just pick a course and the ribbon starts filling.</p>
+    <a href="register.html" class="btn btn-gold">Create your account</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links">
+      <a href="browse-courses.html">Courses</a>
+      <a href="login.html">Log in</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My progress — Ledger</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="student-dashboard.html" class="brand"><span class="mark">&#128214;</span> Ledger</a>
+    <div class="nav-links">
+      <a href="student-dashboard.html">Dashboard</a>
+      <a href="browse-courses.html">Browse Courses</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="progress.html" class="active">Progress</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+    <div class="nav-cta"><div class="nav-avatar">AL</div></div>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Progress tracking</span>
+    <h1>My progress</h1>
+    <p class="muted">Completion percentage across every course you've enrolled in.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-3" style="margin-bottom:40px;">
+      <div class="stat-card"><div class="num">3</div><div class="label">Courses in progress</div></div>
+      <div class="stat-card"><div class="num">1</div><div class="label">Courses completed</div></div>
+      <div class="stat-card"><div class="num">80%</div><div class="label">Average completion</div><div class="delta up">&#9650; 12% this month</div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-pad" style="border-bottom:1px solid var(--line);">
+        <div class="progress-row"><h3 style="margin:0;">Full Stack Development</h3><span class="pct">80%</span></div>
+        <div class="progress-track"><div class="progress-fill" style="width:80%"></div></div>
+        <div style="display:flex;gap:16px;margin-top:14px;font-size:0.82rem;" class="muted">
+          <span>Completed: 4 of 6 modules</span>
+          <span>Pending: React, Node.js</span>
+        </div>
+      </div>
+      <div class="card-pad" style="border-bottom:1px solid var(--line);">
+        <div class="progress-row"><h3 style="margin:0;">React Fundamentals</h3><span class="pct">60%</span></div>
+        <div class="progress-track"><div class="progress-fill" style="width:60%"></div></div>
+        <div style="display:flex;gap:16px;margin-top:14px;font-size:0.82rem;" class="muted">
+          <span>Completed: 2 of 4 modules</span>
+          <span>Pending: Hooks, State management</span>
+        </div>
+      </div>
+      <div class="card-pad">
+        <div class="progress-row"><h3 style="margin:0;">Database Management (DBMS)</h3><span class="pct">100%</span></div>
+        <div class="progress-track"><div class="progress-fill complete" style="width:100%"></div></div>
+        <div style="display:flex;gap:16px;margin-top:14px;font-size:0.82rem;" class="muted">
+          <span>Completed: 4 of 4 modules</span>
+          <span><a href="certificate.html" style="color:var(--gold-deep);font-weight:600;">View certificate →</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div><strong>Ledger</strong> — Student Course Management &amp; Learning Progress Tracking System</div>
+    <div class="footer-links"><a href="my-courses.html">My Courses</a><a href="notifications.html">Notifications</a></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
